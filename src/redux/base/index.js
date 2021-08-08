@@ -1,0 +1,14 @@
+export const FETCH_INITIAL = 'FETCH_INITIAL';
+export const FETCH_REQUEST = 'FETCH_REQUEST';
+export const FETCH_SUCCESS = 'FETCH_SUCCESS';
+export const FETCH_FAILURE = 'FETCH_FAILURE';
+
+export const ADD_INITIAL = 'ADD_INITIAL';
+export const ADD_REQUEST = 'ADD_REQUEST';
+export const ADD_SUCCESS = 'ADD_SUCCESS';
+export const ADD_FAILURE = 'ADD_FAILURE';
+
+export const MODAL_INITIAL = 'MODAL_INITIAL';
+export const MODAL_REQUEST = 'MODAL_REQUEST';
+export const MODAL_SUCCESS = 'MODAL_SUCCESS';
+export const MODAL_FAILURE = 'MODAL_FAILURE';

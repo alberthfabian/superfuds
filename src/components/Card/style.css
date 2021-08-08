@@ -1,0 +1,3 @@
+.card-general:hover .card-hover {
+  visibility: visible;
+}
