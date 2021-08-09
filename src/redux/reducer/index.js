@@ -4,7 +4,9 @@ import {
   FETCH_FAILURE,
   FETCH_INITIAL,
   ADD_REQUEST,
-  MODAL_REQUEST
+  MODAL_REQUEST,
+  REMOVE_REQUEST,
+  LESS_REQUEST
 } from '../base';
 
 const reducers = (state = initialState, action) => {
@@ -24,6 +26,25 @@ const reducers = (state = initialState, action) => {
 
     case ADD_REQUEST:
       state.add.add = [...state.add.add, action.payload];
+      break;
+
+    case LESS_REQUEST:
+      state.add.add = [...state.add.add, action.payload];
+      break;
+
+    case REMOVE_REQUEST:
+      let value = state.add.add;
+      value.sort(function(a, b) {
+        return a - b;
+      });
+      let valueDelete = [];
+      for(let i=0; i<state.add.add.length; i++) {
+        if (state.add.add[i] === action.payload) {
+          valueDelete.push(i);
+        }
+      }
+      value.splice(valueDelete[0], valueDelete.length);
+      state.add.add = [...value];
       break;
 
     case MODAL_REQUEST:

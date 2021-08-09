@@ -1,7 +1,11 @@
 import styled from 'styled-components';
+import { DEVICE } from '../../styles';
 
 export const SearchJoin = styled.div `
   position: relative;
+  /* @media ${DEVICE.laptop} {
+    display: none;
+  } */
 `
 
 export const SearchInput = styled.input ` 
@@ -13,10 +17,22 @@ export const SearchInput = styled.input `
     border: 0px;
     outline: none;
   }
+  @media ${DEVICE.laptopL} {
+    width: 400px;
+  }
+  @media ${DEVICE.laptop} {
+    width: 300px;
+  }
+  @media ${DEVICE.tablet} {
+    display: none;
+  }
 `
 
 export const Glass = styled.div `
   position: absolute;
   top: 1px;
   right: 10px;
+  @media ${DEVICE.tablet} {
+    display: none;
+  }
 `

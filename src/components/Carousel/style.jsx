@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { DEVICE } from '../../styles';
 
 export const CarouselDiv = styled.div ` 
   display: flex;
@@ -13,4 +14,13 @@ export const CarouselFrame = styled.div `
   height: 350px;
   overflow: hidden;
   margin: auto;
+  @media ${DEVICE.laptop} {
+    width: 700px;
+  }
+  @media ${DEVICE.tablet} {
+    width: 400px;
+  }
+  @media ${DEVICE.mobileL} {
+    width: 200px;
+  }
 `

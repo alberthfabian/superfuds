@@ -19,12 +19,12 @@ export const BLUE = '#065f71';
 export const YELLOW = '#e5b56a';
 
 export const DEVICE = {
-  mobileS: `(min-width: ${SIZE.mobileS})`,
-  mobileM: `(min-width: ${SIZE.mobileM})`,
-  mobileL: `(min-width: ${SIZE.mobileL})`,
-  tablet: `(min-width: ${SIZE.tablet})`,
-  laptop: `(min-width: ${SIZE.laptop})`,
-  laptopL: `(min-width: ${SIZE.laptopL})`,
-  desktop: `(min-width: ${SIZE.desktop})`,
-  desktopL: `(min-width: ${SIZE.desktopL})`
+  mobileS: `(max-width: ${SIZE.mobileS})`,
+  mobileM: `(max-width: ${SIZE.mobileM})`,
+  mobileL: `(max-width: ${SIZE.mobileL})`,
+  tablet: `(max-width: ${SIZE.tablet})`,
+  laptop: `(max-width: ${SIZE.laptop})`,
+  laptopL: `(max-width: ${SIZE.laptopL})`,
+  desktop: `(max-width: ${SIZE.desktop})`,
+  desktopL: `(max-width: ${SIZE.desktopL})`
 };

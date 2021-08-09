@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { WHITE, BLACK } from '../../styles';
+import { WHITE, BLACK, DEVICE } from '../../styles';
 
 export const HeaderAvatar = styled.img `
   width: 40px;
@@ -10,6 +10,9 @@ export const HeaderAvatar = styled.img `
 export const HeaderUser = styled.div `
   display: flex;
   align-items: center;
+  @media ${DEVICE.tablet} {
+    display: none;
+  }
 `
 
 export const HeaderInfo = styled.div `

@@ -1,12 +1,14 @@
 import React from 'react';
-import { Foot } from './style';
+import { Foot, FooterMain } from './style';
 
 const Footer = () => {
 
   return (
-    <Foot>
-      &copy; 2021 Superfüds
-    </Foot>
+    <FooterMain>
+      <Foot>
+        &copy; 2021 Superfüds
+      </Foot>
+    </FooterMain>
   );
 };
 
