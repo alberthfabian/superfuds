@@ -35,8 +35,8 @@ El deploy lo realice en Vercel.
 
 * Fue un reto muy chévere ya que me permito realizar un proyecto con las tecnologías propuestas en la prueba, tuve algunos detalles los cuales pude manejar.
 * Consumi la API de acuerdo a lo solicitado.
-* En cuanto al responsive, no lo maneje con todos los componentes ya que por tiempo no alcance a ordenar todo de manera correcta.
-* Pruebas unitarias: las pruebas solamente las maneje en dos compoentes ya que por tiempo no alcance a implementarlas en todo el proyecto.
+* En cuanto al responsive, no lo maneje con todos los componentes ya que por tiempo no alcance.
+* Pruebas unitarias: Se realizaron algunas pruebas a ciertos componentes.
 
 ---
 ⌨️ con ❤️ por [Alberth Pérez](https://github.com/alberthfabian) 😊
