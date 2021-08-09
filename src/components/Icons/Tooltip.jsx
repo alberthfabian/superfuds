@@ -11,8 +11,8 @@ const Tooltip = ({
 }) => {
   return (
     <IconsDivImg className='tooltip' >
-      <IconsImg src={src} alt={alt} />
-      <div className="tooltiptext">
+      <IconsImg src={src} alt={alt} data-testid='img'/>
+      <div className="tooltiptext" data-testid='icons-div'>
         <p id='product'>Producto</p>
         <p id='text'>{text}</p>
       </div>

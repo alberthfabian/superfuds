@@ -5,9 +5,10 @@ import {
 
 const LogoSuperFuds = ({superfuds, altSuperfuds}) => {
   return (
-    <HeaderSuperfuds 
+    <HeaderSuperfuds
       src={superfuds} 
       alt={altSuperfuds}
+      data-testid='LogoData'
     />
   );
 };

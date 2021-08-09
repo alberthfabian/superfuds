@@ -7,6 +7,7 @@ const Search = ({type, placeholder}) => {
       <SearchInput 
         type={type}
         placeholder={placeholder}
+        data-testid='searchButton'
       />
       <Glass>&#128269;</Glass>
     </SearchJoin>
